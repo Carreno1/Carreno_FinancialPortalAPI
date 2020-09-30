@@ -483,7 +483,7 @@
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BankAccountsController.AddAccount(System.Int32,Carreno_FinancialPortalAPI.Models.AccountType,System.String,System.String,System.Decimal,System.Decimal)">
             <summary>
-            
+            Adds a new bank account.
             </summary>
             <param name="hhId"></param>
             <param name="type"></param>
@@ -495,49 +495,49 @@
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BankAccountsController.GetAccounts(System.Int32)">
             <summary>
-            
+            Gets all bank accounts present in a household.
             </summary>
             <param name="householdId"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BankAccountsController.GetAccountDetails(System.Int32)">
             <summary>
-            
+            Gets all details for a specific bank account.
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BankAccountsController.DeleteBankAccount(System.Int32)">
             <summary>
-            
+            Deletes a bank account.
             </summary>
             <param name="Id"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BudgetItemsController.GetBudgetItems(System.Int32)">
             <summary>
-            
+            Gets all budget items for a specific budget.
             </summary>
             <param name="Id"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BudgetItemsController.GetBudgetItemDetails(System.Int32)">
             <summary>
-            
+            Gets a specific Budget item and its details.
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BudgetItemsController.DeleteBudgetItem(System.Int32)">
             <summary>
-            
+            Deletes a budget item.
             </summary>
             <param name="Id"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BudgetsController.AddBudget(System.Int32,System.String,System.String,System.Decimal)">
             <summary>
-            
+            Creates and Adds a new budget to a household.
             </summary>
             <param name="householdId"></param>
             <param name="name"></param>
@@ -547,28 +547,28 @@
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BudgetsController.GetBudgets(System.Int32)">
             <summary>
-            
+            Gets all budgets present in a household.
             </summary>
             <param name="householdId"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BudgetsController.GetBudgetDetails(System.Int32)">
             <summary>
-            
+            Gets details for a specific budget.
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.BudgetsController.DeleteBudget(System.Int32)">
             <summary>
-            
+            Deletes a specific budget.
             </summary>
             <param name="Id"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.HouseholdsController.CreateHousehold(System.String,System.String)">
             <summary>
-            Creates new Household
+            Creates new Household.
             </summary>
             <param name="name"></param>
             <param name="greeting"></param>
@@ -584,14 +584,14 @@
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.HouseholdsController.GetHouseholdDataAsJson(System.Int32)">
             <summary>
-            
+            Gets the household data.
             </summary>
             <param name="householdId"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.TransactionsController.AddTransaction(Carreno_FinancialPortalAPI.Models.TransactionType,Carreno_FinancialPortalAPI.Models.BankAccount,System.Int32,System.String,System.Decimal,System.String)">
             <summary>
-            
+            Creates and adds a new transaction.
             </summary>
             <param name="type"></param>
             <param name="id"></param>
@@ -603,21 +603,21 @@
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.TransactionsController.GetTransactions(System.Int32)">
             <summary>
-            
+            Gets all transactions for a specific account.
             </summary>
             <param name="accountId"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.TransactionsController.GetTransactionDetails(System.Int32)">
             <summary>
-            
+            Gets a specific transaction and its details.
             </summary>
             <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:Carreno_FinancialPortalAPI.Controllers.TransactionsController.DeleteTransaction(System.Int32)">
             <summary>
-            
+            Deletes a transaction.
             </summary>
             <param name="Id"></param>
             <returns></returns>
